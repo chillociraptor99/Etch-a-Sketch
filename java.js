@@ -22,7 +22,7 @@ function makeEtch(num) {
 }
 
 // Set div background on mousedown
-container.addEventListener("mousedown", function(e) {
+container.addEventListener("mouseover", function(e) {
   if (isNaN(e.target.id)) {}
   document.getElementById(e.target.id).id = "clicked";
 })
