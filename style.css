@@ -7,11 +7,11 @@ body {
 }
 
 .pixel:hover {
-    background: #f0f;
+    background: #6437b9;
   }
 
 #clicked {
-    background: #f0f;
+    background: #6437b9;
   }
 
 #container {
@@ -22,4 +22,11 @@ body {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  #newPad {
+    border: 0px;
+    border-radius: 10px;
+    background: #6437b9;
+    padding: 10px;
   }
